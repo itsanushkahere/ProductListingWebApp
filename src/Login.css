@@ -1,0 +1,83 @@
+.mainLogin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f23f54;
+}
+
+.LoginBox{
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.UserInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.Inputfield {
+  width: 260px;
+}
+
+.Validation {
+  color: red;
+}
+
+.password {
+  position: relative;
+}
+
+.Eye {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+.Submit {
+  height: 35px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #f23f54;
+  display: flex;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.SubmitText {
+  color: black;
+  font-weight: 650;
+}
+
+.SignUp {
+  width: 250px;
+  display: flex;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignUpText{
+    color:blue;
+}

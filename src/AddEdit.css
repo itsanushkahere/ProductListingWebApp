@@ -1,0 +1,47 @@
+.mainAddEdit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+.AddEditBox{
+    width: 400px;
+    height:500px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.title{
+    font-size: 40px;
+    color: black;
+    font-weight: 650;
+}
+.formcontents{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enterOptions{
+    width: 250px;
+    height: 25px;
+}
+
+.submitButton{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+.headerMain {
+  height: 80px;
+  background-color: #f23f54;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.CompanyName {
+  color: white;
+}
+
+.LoginMain {
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginText {
+  color: #f23f54;
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.body1 {
+  height: 500px;
+  background-color: #f4f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.ProductTitle {
+  color: #f23f54;
+  font-size: 85px;
+  font-family: "Corbel";
+  font-weight: normal;
+}
+
+.ProductDescription {
+  color: #353b42;
+  font-size: 26px;
+  font-family: Corbel;
+  font-weight: normal;
+}
+
+.AppStore {
+  height: 70px;
+  width: 250px;
+  background-color: #f23f54;
+  padding-left: 30px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProductAlignment {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductText1 {
+  color: white;
+  font-size: 20px;
+}
+
+.ProductText2 {
+  color: white;
+  font-size: 25px;
+}
+
+.videoimg {
+  height: 200px;
+}
+
+.videoDetails {
+  border: 5px solid white;
+}
+
+.body2 {
+  height: 600px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  gap: 50%;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.Section1Main {
+  width: 30%;
+  padding-bottom: 100px;
+}
+
+.SecHeading {
+  color: #f23f54;
+  font-size: 30px;
+}
+
+.lorempara {
+  color: black;
+  font-size: 20px;
+}
+
+.phoneImage {
+  height: 400px;
+  width: 350px;
+}
+
+.body3 {
+  height: 600px;
+  background-color: #f4f7f9;
+  display: flex;
+  align-items: flex-end;
+  gap: 50%;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.Section2Main {
+  width: 30%;
+  padding-bottom: 100px;
+}
+
+.footer1 {
+  height: 60px;
+  background-color: #f23f54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.footer1Info {
+  color: white;
+  font-size: 20px;
+}
+
+.SocialFooter {
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.CopyrightText {
+  margin-top: 40px;
+  font-size: 20px;
+}

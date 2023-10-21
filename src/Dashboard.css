@@ -1,0 +1,181 @@
+.main {
+  position: relative;
+}
+
+.Dashboardtitle {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #f23f54;
+}
+
+@media (max-width: 375px) {
+  .Dashboardtitle {
+    font-size: 15px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+    
+  }
+}
+.totalCountText{
+  font-size: 30px;
+  position: absolute;
+
+}
+
+.counterPage{
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 170px;
+  font-size: 15px;
+  color: white;
+  background-color:black;
+  position: absolute;
+  left: 80px;
+}
+
+.logout {
+  height: 45px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: green;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+@media (max-width: 375px) {
+  .logout {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 70px;
+  }
+}
+.AddSearch {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.AddButton {
+  height: 45px;
+  width: 70px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 375px) {
+  .AddButton {
+    font-size: 16px;
+    margin-right: 20px;
+    width: 60px;
+  }
+}
+
+.SearchText {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/*Mobile-M */
+@media (max-width: 375px) {
+  .SearchText {
+    font-size: 14px;
+    width: 150px;
+    margin-right:50px;
+  }
+}
+@media (max-width: 375px) {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
+
+@media (min-width:376px) and (max-width: 930px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 931px) and (max-width: 1270px) {
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1271px) and (max-width: 1500px) {
+  .card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1501px) {
+  .card {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.card {
+  /* width: 200px; */
+  height: 400px;
+  display: grid;
+  gap: 50px;
+  padding: 20px;
+  /* grid-template-columns: repeat(5, 1fr); */
+  /* padding-left: 40px; */
+}
+
+.eachcard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 30px;
+  position: relative;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+.kebab {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px; /*Increase padding to increase button size */
+  font-size: 20px; /* Increase font size for larger kebab symbol */
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: 40px; /*Adjust the position of the dropdown */
+  right: 0;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.DropdownOption {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Notfound {
+  color: red;
+  font-size: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
